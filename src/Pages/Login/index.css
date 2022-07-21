@@ -1,0 +1,26 @@
+body{
+    background-color: #22232f;
+    color:white;
+}
+.Container{
+   display: flex;
+   flex-direction: column;
+   width:750px;
+   justify-content: center;
+   align-items: center;
+   height:100vh;
+   margin: 0 auto;
+}
+.Container button{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #c61066;
+}
+.Container button img{
+    height:30px;
+    margin: 0 15px 0 0;
+}
