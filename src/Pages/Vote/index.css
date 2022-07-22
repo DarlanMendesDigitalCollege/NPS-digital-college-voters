@@ -12,19 +12,39 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-   
+    text-align: justify;
 }
 .buttons{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap:wrap;
     height: 30%;
     width: 100%;
     margin: 20px;
 }
 .btn{
+    
     height:100px;
     width: 100px;
     border-radius:15px;
     font-size: 50px;
+}
+.button-vote button{
+    background-color: #c61066;
+    border-radius: 9px;
+    padding: 5px 10px;
+    font-size: large;
+    color:white;
+    font-weight:bold;
+}
+@media(max-width:800px){
+    .ContainerVote{
+        height:80vh;
+    }
+    .button-vote{
+        position:fixed;
+        bottom:2%;
+
+    }
 }
