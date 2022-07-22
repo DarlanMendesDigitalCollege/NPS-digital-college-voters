@@ -51,7 +51,7 @@ const Login = ({ setUserId, isAuth, setIsAuth }) => {
             
             <div className='button-container'>
                 
-                <button onClick={handleLogin}> <img src={google}/>Login
+                <button onClick={handleLogin}> <img src={google}/>Conecte-se
                 </button>
                 Faça o login com sua conta google para votar
             </div>
