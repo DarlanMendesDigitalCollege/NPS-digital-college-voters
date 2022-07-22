@@ -41,7 +41,7 @@ const Vote = ({ userId, setUserId, isAuth, setIsAuth }) => {
     <>
       {!isAuth ? <>Acesso negado você não logado </> :
         <div className="ContainerVote">
-          <h2>Numa escala de 0 a 10, quanto você indicaria nossa escolar a um amigo ou familiar?</h2>
+          <h2>Numa escala de 0 a 10, quanto você indicaria nossa escola a um amigo ou familiar?</h2>
           <div className="buttons">
             <button type="radio" className="btn" name="vote" onClick={() => { setVote("1") }} >1</button>
             <button type="radio" className="btn" name="vote" onClick={() => { setVote("2") }}>2 </button>
