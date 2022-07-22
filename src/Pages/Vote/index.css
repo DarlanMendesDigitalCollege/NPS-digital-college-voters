@@ -29,7 +29,16 @@ body{
     width: 100px;
     border-radius:15px;
     font-size: 50px;
+
 }
+.btn:hover{
+    box-shadow: 0  0 10px 10px #c76995;
+}
+.btn:active{
+    box-shadow: 0  0 10px 10px #c61066;
+}
+
+
 .button-vote button{
     background-color: #c61066;
     border-radius: 9px;

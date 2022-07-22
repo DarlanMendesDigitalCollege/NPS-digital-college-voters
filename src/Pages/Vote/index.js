@@ -10,7 +10,8 @@ const Vote = ({ userId, setUserId, isAuth, setIsAuth }) => {
 
   const handleLogOut = () => {
     signOut(auth).then(() => {
-      alert("Usuário deslogado com sucesso");
+      console.log(vote);
+      alert("Agradecemos a sua contribuição! Você votou com a nota:"+vote);
       setUserId('');
       localStorage.clear();
       setIsAuth(false);
