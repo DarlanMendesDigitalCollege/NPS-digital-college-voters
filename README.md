@@ -1,3 +1,8 @@
+
+PROJETO CALCULADORA NPS _ DIGITAL COLLEGE 
+PRODUZIDO POR : DEDSON DARLAN MENDES DE SOUSA; LUCAS MONTEIRO DE SOUSA ;ANDRÉ QUEIROZ BARCELAR
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
