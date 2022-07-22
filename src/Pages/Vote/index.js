@@ -24,7 +24,7 @@ const Vote = ({ userId, setUserId, isAuth, setIsAuth }) => {
       await setDoc(doc(db, "voteUser", userId), {
         vote: vote
       }).then((validated) => {
-        alert(validated);
+        
         handleLogOut();
       })
     } else { alert("Nenhuma nota selecionada, por favor, selecione uma nota") }
